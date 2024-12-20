@@ -40,12 +40,12 @@ function Introduction({ onStartTool }) {
                     <strong>Measure ‘On’ Potentials:</strong><br />
                     With the rectifier current on, measure potentials at each station.<br />
                     If the 'On' potential differs by ±200 mV from the average of the last five readings, or
-                    if (On potential - IR drop) &lt; -0.85 V, or if indicated by the spreadsheet,
+                    if (On potential - IR drop) is more negative than -0.85 V, or if indicated by the spreadsheet,
                     collect ‘Instant OFF/Polarized’ potentials.
                 </li>
                 <li>
                     <strong>Collect ‘Instant OFF/Polarized’ Potentials:</strong><br />
-                    Check if ‘Instant off’ potential ≥ -850 mV.
+                    Check if ‘Instant off’ potential more negative -850 mV.
                     If not, obtain ‘Base’ potential.
                 </li>
                 <li>
@@ -54,14 +54,14 @@ function Introduction({ onStartTool }) {
                 </li>
                 <li>
                     <strong>Determine Protection Status:</strong><br />
-                    If ‘Instant off’ ≥ -850 mV or ‘Base’ meets criteria, pipeline is protected.
+                    If ‘Instant off’ is more negative than -850 mV or ‘Base’ meets criteria, pipeline is protected.
                     Otherwise, further action is required.
                 </li>
             </ol>
 
             <h2>Criteria for Considering a Pipeline Protected</h2>
             <ul>
-                <li>‘Instant off’ potential ≥ -850 mV.</li>
+                <li>‘Instant off’ potential is more negative than -850 mV.</li>
                 <li>‘Native’ or ‘Depolarized’ potential ≥ 100 mV more negative than ‘Instant off’.</li>
                 <li>‘On’ potential within ±200 mV of the average, indicating stability.</li>
             </ul>
