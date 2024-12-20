@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cp-potential-surveys/static/css/main.8490b300.css",
+    "main.js": "/cp-potential-surveys/static/js/main.94a74adf.js",
+    "static/media/potential_measure.png": "/cp-potential-surveys/static/media/potential_measure.5c710577719e601defd0.png",
+    "index.html": "/cp-potential-surveys/index.html",
+    "main.8490b300.css.map": "/cp-potential-surveys/static/css/main.8490b300.css.map",
+    "main.94a74adf.js.map": "/cp-potential-surveys/static/js/main.94a74adf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8490b300.css",
+    "static/js/main.94a74adf.js"
+  ]
+}
